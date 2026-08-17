@@ -1,20 +1,33 @@
 # Maven Toys Sales Analysis - Power BI Dashboard
 
-## Project Overview
-This project is a Power BI dashboard analyzing **sales, revenue, profitability, products, and store performance** for Maven Toys, a fictional toy retailer operating across Mexico.
+## Table of Contents
+- Business Problem
+- Project Objectives
+- Project Overview
+- Dashboard Pages & Features
+    - Executive Sales & Profit
+    - Store & Product Performance
+- Interactive Elements
+- Key Business Insights
+- Recommendations
+- Data Model & DAX
+- Repository Structure
+- How to Use
+- Tools
 
-## Objectives
+## Business Problem
 
+Maven Toys needs to understand which products, stores, and locations are driving sales and profitability, while identifying areas where performance could be improved.
+
+## Project Objectives
 The analysis focuses on:
-
 - Evaluating overall sales and profitability.
 - Identifying high-performing products, stores, and locations.
 - Analyzing revenue and profit trends over time.
 - Identifying areas of strong and weak business performance.
 
-## Business Problem
-
-Maven Toys needs to understand which products, stores, and locations are driving sales and profitability, while identifying areas where performance could be improved.
+## Project Overview
+This project is a Power BI dashboard analyzing **sales, revenue, profitability, products, and store performance** for Maven Toys, a fictional toy retailer operating across Mexico.
 
 ## Dashboard Pages & Features
 
@@ -62,7 +75,7 @@ Allows users to seamlessly toggle between the "Executive Sales & Profit" and "St
    - Store City
    - Store Location
 
-## Key Insights
+## Key Business Insights
 - **Toys generate the highest revenue**, making them the largest contributor to overall sales.
 - **Electronics have the highest profit margin**, indicating stronger profitability relative to revenue.
 - **Downtown locations generate the highest revenue and profit** among the store location types.
@@ -96,3 +109,7 @@ Maven-Toys-Sales-Analysis/
 2. Open it in **Power BI Desktop**.
 3. Use the page buttons to navigate between dashboards.
 4. Use the slicers to explore different periods, products, cities, and store locations.
+
+## Tools
+Power BI · DAX · Power Query · Data Modeling · Data Visualization
+
