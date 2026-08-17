@@ -3,7 +3,18 @@
 ## Project Overview
 This project is a Power BI dashboard analyzing **sales, revenue, profitability, products, and store performance** for Maven Toys, a fictional toy retailer operating across Mexico.
 
-The dashboard is designed to help stakeholders quickly understand overall business performance and identify high-performing products, stores, and locations.
+## Objectives
+
+The analysis focuses on:
+
+- Evaluating overall sales and profitability.
+- Identifying high-performing products, stores, and locations.
+- Analyzing revenue and profit trends over time.
+- Identifying areas of strong and weak business performance.
+
+## Business Problem
+
+Maven Toys needs to understand which products, stores, and locations are driving sales and profitability, while identifying areas where performance could be improved.
 
 ## Dashboard Pages & Features
 
@@ -41,21 +52,45 @@ Caption: Store and product performance showing top products, individual store re
 
 ## Interactive Elements
 The report features a custom-built, unified navigation pane on the left side of every page:
-**page navigation buttons** : Allows users to seamlessly toggle between the "Executive Sales & Profit" and "Store & Product Performance" pages.
-**slicers** for:
-    * Year & Month (2022 & 2023)
-    * Product Category
-    * Store City
-    * Store Location
+
+### Page navigation buttons: 
+Allows users to seamlessly toggle between the "Executive Sales & Profit" and "Store & Product Performance" pages.
+
+### Slicers for: 
+   - Year & Month (2022 & 2023)
+   - Product Category
+   - Store City
+   - Store Location
+
+## Key Insights
+- **Toys generate the highest revenue**, making them the largest contributor to overall sales.
+- **Electronics have the highest profit margin**, indicating stronger profitability relative to revenue.
+- **Downtown locations generate the highest revenue and profit** among the store location types.
+- **Colorbuds is the leading product** by both orders and profit in the analysis.
+- Store and product performance varies considerably, highlighting opportunities to improve weaker-performing areas.
+
+## Recommendations
+- Prioritize high-performing toy products while reviewing lower-performing categories for improvement.
+- Investigate the factors behind the stronger margins achieved by Electronics.
+- Use high-performing Downtown stores as a benchmark when evaluating other store locations.
+- Review underperforming stores and products to identify opportunities to improve sales and profitability.
 
 ## Data Model & DAX
-
 The report uses related **Sales, Products, and Stores** tables to support the analysis.
-DAX measures were created for core business metrics including **Total Orders, Total Units, Total Revenue, Total Cost, Total Profit, Profit Margin, and store-level averages**.
+DAX measures were created for core business metrics including **Total Orders, Total Units, Total Revenue, Total Cost, Total Profit, Profit Margin, and Average Revenue per Store, Average Profit per Store and Average Profit Margin**.
 Revenue and profit are calculated using sales units together with product price and cost information.
 
-## How to Use
+## Repository Structure
 
+```text
+Maven-Toys-Sales-Analysis/
+├── Data/
+├── Images/
+├── Maven Toys Sales Analysis.pbix
+└── README.md
+```
+
+## How to Use
 1. Download the `.pbix` file.
 2. Open it in **Power BI Desktop**.
 3. Use the page buttons to navigate between dashboards.
