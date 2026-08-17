@@ -77,11 +77,12 @@ Allows users to seamlessly toggle between the "Executive Sales & Profit" and "St
 
 ## Data Model & DAX
 The report uses related **Sales, Products, and Stores** tables to support the analysis.
+
 DAX measures were created for core business metrics including **Total Orders, Total Units, Total Revenue, Total Cost, Total Profit, Profit Margin, and Average Revenue per Store, Average Profit per Store and Average Profit Margin**.
+
 Revenue and profit are calculated using sales units together with product price and cost information.
 
 ## Repository Structure
-
 ```text
 Maven-Toys-Sales-Analysis/
 ├── Data/
