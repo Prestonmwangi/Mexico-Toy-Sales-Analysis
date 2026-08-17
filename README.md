@@ -28,7 +28,7 @@ Product Performance: Bar charts showing Total Revenue and Profit Margin % by Pro
 
 City Performance: Bar chart highlighting the Top 5 Cities by Total Profit.
 
-*Insight*: Toys generate the highest revenue, while Electronics achieve the highest profit margin.
+**Insight: Toys generate the highest revenue, while Electronics achieve the highest profit margin.**
 
 ![Executive Sales & Profit](https://github.com/Prestonmwangi/Mexico-Toy-Sales-Analysis/blob/main/Images/Executive%20Sales%20%26%20Profit.png)
 *Caption: Executive overview of sales, profitability, category performance, and city-level results.*
@@ -45,18 +45,18 @@ Product Performance: Bar charts showing the Top 5 Products by Orders and Total P
 
 Location Performance: Column chart comparing Revenue and Profit across store locations.
 
-*Insight*: Downtown stores generate the highest revenue and profit, while Colorbuds leads product sales volume and profit.
+**Insight: Downtown stores generate the highest revenue and profit, while Colorbuds leads product sales volume and profit.**
 
 ![Store & Product Performance](https://github.com/Prestonmwangi/Mexico-Toy-Sales-Analysis/blob/main/Images/Store%20%26%20Product%20Performance.png)
-Caption: Store and product performance showing top products, individual store results, and revenue and profit by store location.
+*Caption: Store and product performance showing top products, individual store results, and revenue and profit by store location.*
 
 ## Interactive Elements
 The report features a custom-built, unified navigation pane on the left side of every page:
 
-### Page navigation buttons: 
+### 1. Page navigation buttons: 
 Allows users to seamlessly toggle between the "Executive Sales & Profit" and "Store & Product Performance" pages.
 
-### Slicers for: 
+### 2. Slicers for: 
    - Year & Month (2022 & 2023)
    - Product Category
    - Store City
